@@ -1,0 +1,39 @@
+.post-text {
+  border: none;
+  font-size: 20px;
+}
+.post-text:focus {
+  border: none;
+  outline: none;
+}
+.post-container {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.btn-container {
+  display: flex;
+  align-self: flex-end;
+}
+#post-btn {
+  margin-left: 300px;
+  width: 200px;
+  background-color:  #ec4d37;
+  font-weight: bold;
+  border: none;
+  color: #1d1b1b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.post-gif-container {
+  position: relative;
+  margin-top: 20px;
+  /* width: fit-content; */
+}
+.close-btn {
+  position: absolute;
+  right: 300px;
+  top: 1px;
+
+}

@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  width: 200px;
+}
+.gif-container {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  margin: auto;
+  height: 200px;
+}
+.scroller {
+  width: 210px;
+  margin-top: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ec4d37;
+  border-radius: 4px;
+  border-top: none;
+}
+.scroller::-webkit-scrollbar {
+  width: 3px;
+}
+.scroller::-webkit-scrollbar-thumb {
+  background: #ec4d37;
+  border-radius: 2px;
+}
+.input {
+  width: 205px;
+  padding: 5px 0;
+  border: 1px solid #1d1b1b;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 5px;
+}
+.input:focus {
+  outline: none;
+  border-color: #ec4d37;
+  border-radius: 4px;
+}
+.gif-wrapper {
+  width: 200px;
+  padding: 2px;
+}
+.gif-wrapper:hover {
+  /* border: 1px solid teal; */
+  cursor: pointer;
+}
+.btn {
+  color: #1d1b1b;
+  background-color: white;
+  cursor: pointer;
+  width: 495px;
+  padding: 5px;
+  border: 1px solid #1d1b1b;
+  border-radius: 3px;
+}
+
+#add-gif-btn {
+  border: 1px solid #ec4d37 ;
+}
+
+
